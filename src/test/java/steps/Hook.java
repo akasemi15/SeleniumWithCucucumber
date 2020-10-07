@@ -20,7 +20,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class Hook extends BaseUtil{
 
-
     private BaseUtil base;
 
     public Hook(BaseUtil base) {
@@ -39,7 +38,7 @@ public class Hook extends BaseUtil{
         //base.Driver = new FirefoxDriver();*/
 
 
-        Chrome driver
+        //Chrome driver
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         base.Driver = new ChromeDriver();
 
