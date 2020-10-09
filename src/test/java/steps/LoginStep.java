@@ -46,6 +46,7 @@ public class LoginStep extends BaseUtil{
         base.scenarioDef.createNode(new GherkinKeyword("Given"), "I navigate to the login page");
         System.out.println("Navigate Login Page");
         base.Driver.navigate().to("http://www.executeautomation.com/demosite/Login.html");
+        InitializeWebDriver.driver.get(value);    
     }
 
 
